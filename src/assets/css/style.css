@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    background-color: #1E1F28;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    display: flex;
+    gap: 39rem;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon img {
+    width: 140px;
+}
+
+#button img {
+    width: 300px;
+}
+
+.title {
+    display: flex;
+    gap: rem;
+    align-items: center;
+    color: white;
+}
+
+#cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title img {
+    width: 110px;
+}
+
+.poster img {
+    width: 300px;
+}
+
+.dateMovie {
+    display: flex;
+    gap: 6rem;
+    color: #8B8D9B;
+    font-size: 24px;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time a {
+    font-size: 20px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date a {
+    font-size: 20px;
+}
+
+
+.low {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.button img {
+    width: 300px;
+}
